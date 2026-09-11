@@ -15,7 +15,7 @@ jobs:
         run: |
           mkdir -p project
 
-          ZIP_FILE="./ProductionFeedingCalculator_联动更新修复版.zip"
+          ZIP_FILE="./ProductionFeedingCalculator_双向联动修复版.zip"
 
           if [ -z "$ZIP_FILE" ]; then
             echo "没有找到项目 ZIP"
